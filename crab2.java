@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class crab2 here.
+ * Crab.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Frankie Nay (your name) 
+ * @8/26/2021 (a version number or a date)
  */
 public class crab2 extends Actor
 {
