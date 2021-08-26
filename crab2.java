@@ -1,12 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Crab here.
+ * Write a description of class crab2 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Crab extends Actor
+public class crab2 extends Actor
 {
     /**
      * Act - do whatever the Crab wants to do. This method is called whenever

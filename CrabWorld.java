@@ -18,7 +18,7 @@ public class CrabWorld extends World
      */
     private void prepare()
     {
-        Crab crab = new Crab();
+        crab2 crab = new crab2();
         addObject(crab,225,177);
         Worm worm = new Worm();
         addObject(worm,351,260);
