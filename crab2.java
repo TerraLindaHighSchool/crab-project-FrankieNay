@@ -20,40 +20,35 @@ public class crab2 extends Actor
         onCollision();
     }
 
-private void turnAtEdge()
-{
-    if(isAtEdge())
+    private void turnAtEdge()
     {
+        if(isAtEdge())
+        {
         turn(50);
-    }
-}
-
-private void checkKeyPress()
-{
-    if(Greenfoot.isKeyDown("right"))
-    {
-        turn(4);
+        }
     }
 
-if(Greenfoot.isKeyDown("left"))
-{
-    turn(-4);
-}
-}
+    private void checkKeyPress()
+        {
+        if(Greenfoot.isKeyDown("right"))
+        {
+            turn(4);
+        }
 
-private void onCollision()
-{
-    if(isTouching(Worm.class))
+        if(Greenfoot.isKeyDown("left"))
+        {
+        turn(-4);
+        }
+    }
+    
+    private void onCollision()
     {
-    removeTouching(Worm.class);
-    Greenfoot.playSound("slurp.wav");
-}
+        if(isTouching(Worm.class))
+        {
+        removeTouching(Worm.class);
+        Greenfoot.playSound("slurp.wav");
+        }
 
-}
-
-
-
-
-
+    }
 
 }
