@@ -37,16 +37,22 @@ public class crab2 extends Actor
 
         if(Greenfoot.isKeyDown("left"))
         {
-        turn(-4);
+            turn(-4);
         }
-    }
+        
+        if(Greenfoot.isKeyDown("up"))
+        {
+            Greenfoot.delay(60);
+            }
+        }
+    
     
     private void onCollision()
     {
         if(isTouching(Worm.class))
         {
-        removeTouching(Worm.class);
-        Greenfoot.playSound("slurp.wav");
+            removeTouching(Worm.class);
+            Greenfoot.playSound("slurp.wav");
         }
 
     }
