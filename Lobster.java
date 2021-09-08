@@ -22,7 +22,8 @@ public class Lobster extends Actor
     {
         if(isAtEdge())
         {
-            turn(50);
+            turn(Greenfoot.getRandomNumber(360));
+
         }
     }
 }
